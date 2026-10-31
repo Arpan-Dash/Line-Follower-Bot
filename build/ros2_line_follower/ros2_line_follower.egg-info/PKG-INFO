@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ros2-line-follower
+Version: 1.0
+Summary: Line follower robot in a beautiful indoor room — Gazebo Harmonic + ROS 2 Jazzy.
+Maintainer: Ahmed M. Abbas
+Maintainer-email: ahmed@example.com
+License: MIT

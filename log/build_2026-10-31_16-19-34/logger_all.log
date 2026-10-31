@@ -1,0 +1,119 @@
+[0.168s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ros2_line_follower', '--symlink-install']
+[0.168s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ros2_line_follower'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fc12b272960>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc12b17f5c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc12b17f5c0>>, mixin_verb=('build',))
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.255s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src' with type 'ros.ament_python' and name 'ros2_line_follower'
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.351s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install
+[0.355s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/jazzy
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_line_follower' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_line_follower' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_line_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_line_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_line_follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_line_follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_line_follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_line_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_line_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_line_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower', 'merge_install': False, 'path': '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/src', 'symlink_install': True, 'test_result_base': None}
+[0.437s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.439s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/src' with build type 'ament_python'
+[0.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_line_follower', 'ament_prefix_path')
+[0.443s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/hook/ament_prefix_path.ps1'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/hook/ament_prefix_path.dsv'
+[0.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/hook/ament_prefix_path.sh'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.936s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/src'
+[0.937s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.937s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.816s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist, check, bdist_egg, upload, extract_messages, setopt, test, develop, alias, build, build_clib, build_ext, clean, egg_info, install_egg_info, install_scripts, update_catalog, rotate, install_data, editable_wheel, sdist, compile_catalog, init_catalog, bdist_dumb, install_lib, saveopts, bdist_rpm, dist_info, build_py, upload_docs, install, install_headers, easy_install, register, symlink_data, build_scripts
+[2.169s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --prefix, --site-dirs, --index-url, --egg-path, --allow-hosts, --build-directory, --optimize, --no-find-links, --install-layout, --find-links, --editable, --user, --local-snapshots-ok, --uninstall, --no-user-cfg, --quiet, --force-installation-into-system-dir, --verbose, --always-unzip, --install-dir, --multi-version, --no-deps, --dry-run, --zip-ok, --upgrade, --script-dir, --version, --exclude-scripts, --record, --help, --always-copy
+[2.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/build --no-deps symlink_data
+[2.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_line_follower', 'pythonpath_develop')
+[2.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/share/ros2_line_follower/hook/pythonpath_develop.ps1'
+[2.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/build --no-deps symlink_data
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/share/ros2_line_follower/hook/pythonpath_develop.dsv'
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/share/ros2_line_follower/hook/pythonpath_develop.sh'
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower' for CMake module files
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower' for CMake config files
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/bin'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/pkgconfig/ros2_line_follower.pc'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/python3.12/site-packages'
+[2.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_line_follower', 'pythonpath')
+[2.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/hook/pythonpath.ps1'
+[2.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/hook/pythonpath.dsv'
+[2.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/hook/pythonpath.sh'
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/bin'
+[2.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_line_follower)
+[2.762s] INFO:colcon.colcon_core.shell:Creating package script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/package.ps1'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/package.dsv'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/package.sh'
+[2.764s] INFO:colcon.colcon_core.shell:Creating package script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/package.bash'
+[2.765s] INFO:colcon.colcon_core.shell:Creating package script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/package.zsh'
+[2.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/colcon-core/packages/ros2_line_follower)
+[2.766s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.766s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.766s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.766s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.772s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.772s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.772s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.783s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.783s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/local_setup.ps1'
+[2.785s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/_local_setup_util_ps1.py'
+[2.785s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/setup.ps1'
+[2.787s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/local_setup.sh'
+[2.788s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/_local_setup_util_sh.py'
+[2.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/setup.sh'
+[2.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/local_setup.bash'
+[2.791s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/setup.bash'
+[2.792s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/local_setup.zsh'
+[2.793s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/setup.zsh'

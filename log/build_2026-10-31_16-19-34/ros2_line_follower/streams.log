@@ -1,0 +1,33 @@
+[1.733s] Invoking command in '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/build --no-deps symlink_data
+[2.018s] running develop
+[2.206s] running egg_info
+[2.206s] creating ros2_line_follower.egg-info
+[2.223s] writing ros2_line_follower.egg-info/PKG-INFO
+[2.224s] writing dependency_links to ros2_line_follower.egg-info/dependency_links.txt
+[2.224s] writing entry points to ros2_line_follower.egg-info/entry_points.txt
+[2.224s] writing requirements to ros2_line_follower.egg-info/requires.txt
+[2.224s] writing top-level names to ros2_line_follower.egg-info/top_level.txt
+[2.224s] writing manifest file 'ros2_line_follower.egg-info/SOURCES.txt'
+[2.258s] reading manifest file 'ros2_line_follower.egg-info/SOURCES.txt'
+[2.259s] writing manifest file 'ros2_line_follower.egg-info/SOURCES.txt'
+[2.277s] running build_ext
+[2.277s] Creating /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/python3.12/site-packages/ros2-line-follower.egg-link (link to .)
+[2.277s] Installing error_plotter script to /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/ros2_line_follower
+[2.278s] Installing line_follower script to /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/ros2_line_follower
+[2.278s] 
+[2.279s] Installed /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower
+[2.279s] running symlink_data
+[2.279s] creating /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ament_index
+[2.279s] creating /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ament_index/resource_index
+[2.279s] creating /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ament_index/resource_index/packages
+[2.279s] symbolically linking /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/resource/ros2_line_follower -> /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ament_index/resource_index/packages
+[2.279s] symbolically linking /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/package.xml -> /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower
+[2.279s] creating /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/launch
+[2.279s] symbolically linking /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/launch/line_follower.launch.py -> /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/launch
+[2.280s] creating /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/worlds
+[2.280s] symbolically linking /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/worlds/indoor_line_track.sdf -> /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/worlds
+[2.280s] creating /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/urdf
+[2.280s] symbolically linking /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/urdf/my_robot.urdf -> /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/urdf
+[2.280s] creating /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/config
+[2.280s] symbolically linking /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/config/line_follower.rviz -> /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ros2_line_follower/config
+[2.316s] Invoked command in '/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/arpan/SSD_EXT/RISC_induction/line_follower_ws_/build/ros2_line_follower/build --no-deps symlink_data
