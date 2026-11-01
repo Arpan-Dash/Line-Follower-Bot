@@ -1,0 +1,1 @@
+error: [Errno 17] File exists: '/mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/build/ros2_line_follower/resource/ros2_line_follower' -> '/mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/install/ros2_line_follower/share/ament_index/resource_index/packages/ros2_line_follower'

@@ -1,0 +1,18 @@
+[1.015s] Invoking command in '/mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/build/ros2_line_follower': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/build/ros2_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/build/ros2_line_follower/build --no-deps symlink_data
+[1.279s] running develop
+[1.447s] running egg_info
+[1.463s] writing ros2_line_follower.egg-info/PKG-INFO
+[1.463s] writing dependency_links to ros2_line_follower.egg-info/dependency_links.txt
+[1.463s] writing entry points to ros2_line_follower.egg-info/entry_points.txt
+[1.463s] writing requirements to ros2_line_follower.egg-info/requires.txt
+[1.464s] writing top-level names to ros2_line_follower.egg-info/top_level.txt
+[1.496s] reading manifest file 'ros2_line_follower.egg-info/SOURCES.txt'
+[1.498s] writing manifest file 'ros2_line_follower.egg-info/SOURCES.txt'
+[1.515s] running build_ext
+[1.516s] Creating /mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/python3.12/site-packages/ros2-line-follower.egg-link (link to .)
+[1.516s] Installing error_plotter script to /mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/ros2_line_follower
+[1.517s] Installing line_follower script to /mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/ros2_line_follower
+[1.517s] 
+[1.518s] Installed /mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/build/ros2_line_follower
+[1.518s] running symlink_data
+[1.544s] Invoked command in '/mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/build/ros2_line_follower' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/build/ros2_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/install/ros2_line_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/wwn-0x50026b738078fa8c-part2/RISC_induction/line_follower_ws_/build/ros2_line_follower/build --no-deps symlink_data

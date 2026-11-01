@@ -5,6 +5,7 @@
   <version>0.1.0</version>
   <description>ROS2 package for line following robot(using PID algorithm)</description>
   <maintainer email="26ee01008@iitbbs.ac.in">Arpan Dash</maintainer>
+  <license>MIT</license>
 
   <exec_depend>rclpy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>

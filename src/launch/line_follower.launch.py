@@ -40,7 +40,7 @@ def generate_launch_description():
         output='screen',
     )
 
-    # Gazebo with indoor room world
+    # Gazebo with room world
     gz_sim = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             os.path.join(
