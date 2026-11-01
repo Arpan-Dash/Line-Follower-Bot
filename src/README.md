@@ -1,6 +1,6 @@
 # Line Follower Robot (ROS2 Jazzy + Gazebo + Camera)
 
-A camera-based line follower robot that tracks a black line on a tiled floor inside a beautiful indoor room. The robot uses a downward-tilted camera, grayscale thresholding, and a PD controller to follow the line autonomously.
+A camera-based line follower robot that tracks a black line on a floor. The robot uses a downward-tilted camera, grayscale thresholding, and a PD controller to follow the line autonomously.
 
 ## How it works
 1. A custom differential drive robot with a downward-facing camera is spawned in an indoor room with a tiled floor
@@ -49,19 +49,19 @@ the most recent 600 samples.
 
 ```bash
 # 1. Create a workspace (skip if you already have one)
-mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws/src
+mkdir -p ~/line_follower_ws/src
+cd ~/line_follower_ws/src
 
 # 2. Clone this repo
 git clone https://github.com/Ahmed-m-abbas/ros2_line_follower.git
 
 # 3. Build the package
-cd /media/arpan/SSD_EXT/line_follower_ws_
+cd ~/line_follower_ws
 source /opt/ros/jazzy/setup.bash
 colcon build --packages-select ros2_line_follower --symlink-install
 
 # 4. Source the workspace
-source /media/arpan/SSD_EXT/line_follower_ws_/install/setup.bash
+source ~/line_follower_ws/install/setup.bash
 ```
 
 ## Run
@@ -98,10 +98,8 @@ ros2_line_follower/
 - ROS 2 Jazzy
 - URDF (custom differential drive robot)
 - Gazebo Harmonic (gz-sim) + camera sensor + `DiffDrive` plugin
-- `ros_gz_bridge` (Clock, Twist, Odometry, LaserScan, Image, CameraInfo, TF, JointState)
+- `ros_gz_bridge` (Clock, Twist, Odometry, LaserScan, Image, CameraInfo)
 - PD controller (numpy-based image processing, no OpenCV dependency)
 - RViz2 (camera image display)
 - PIL/Pillow (procedural floor texture generation)
 
-## License
-MIT
